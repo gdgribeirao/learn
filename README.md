@@ -6,6 +6,11 @@ _Learn_ é uma iniciativa do GDG Ribeirão Preto com o objetivo de disseminar co
 
 Todo material apresentado aqui está em _Markdown_, escrito em texto plano. Tem-se como objetivo a simplicidade e a objetividade para que o material seja conciso e de simples entendimento.
 
+## Material Disponível
+
+* [Linguagens de Programação](linguagens/INDEX.md)
+* [Ferramentas de Desenvolvimento](ferramentas/INDEX.md)
+
 ## Como Contribuir
 
 Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes de como contribuir com este projeto.
