@@ -8,7 +8,7 @@ Todo material apresentado aqui está em _Markdown_, escrito em texto plano. Tem-
 
 ## Como Contribuir
 
-Leia o arquivo CONTRIBUTING.md para detalhes de como contribuir com este projeto.
+Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes de como contribuir com este projeto.
 
 ## Autores
 
