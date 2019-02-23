@@ -10,13 +10,13 @@ Todo material apresentado aqui está em _Markdown_, escrito em texto plano. Tem-
 
 Leia o arquivo CONTRIBUTING.md para detalhes de como contribuir com este projeto.
 
-## Authors
+## Autores
 
 * **Ronaldo Faria Lima** - *Criação do Projeto* - [ronflima](https://github.com/ronflima)
 
 Veja a lista de [voluntários](https://github.com/gdgribeirao/learn/graphs/contributors) que contribuem com este projeto.
 
-## License
+## Licença
 
 Este projeto está licenciado pela Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para maiores detalhes.
 
