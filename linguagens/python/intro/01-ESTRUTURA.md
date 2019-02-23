@@ -104,7 +104,7 @@ python módulo.py arg1 arg2 arg3
 - `módulo.py` é o nome do arquivo no qual você salvou seu programa. A rigor, é o nome do _módulo_.
 - `arg1 arg2 arg3` são os argumentos de linha de comando do seu programa. No nosso caso, usamos apenas um único argumento.
 
-Observe que o código de exemplo não tem nenhuma função _main_ ou qualquer outro ponto de entrada definido. Há uma definição de função (instrução _def_) e uma estrutura _if_ seca no meio do código. Não se preocupe ainda comos detalhes deste código.
+Observe que o código de exemplo não tem nenhuma função _main_ ou qualquer outro ponto de entrada definido. Há uma definição de função (instrução _def_) e uma estrutura _if_ seca no meio do código. Não se preocupe ainda com os detalhes deste código.
 
 > **Dica**
 >
