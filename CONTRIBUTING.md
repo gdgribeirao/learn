@@ -19,3 +19,11 @@ Evite o uso de material que tenha direito de uso reservado, a não ser que você
 Se quiser adicionar material, ou modificar o material existente, use o método padrão do Github: faça um _fork_ do repositório, adicione suas alterações e realize um _pull request_. Os _pull requests_ serão analisados e incorporados ao _master_ deste repositório.
 
 O repositório é organizado por assuntos. Cada assunto tem um diretório que tem um índice. Ao adicionar uma trilha, crie-a dentro de um determinado assunto e atualize o índice do assunto para realizar ligações ao seu material.
+
+### Achou um problema?
+
+Algo está mal escrito, ou com erros de ortografia? [Abra uma issue](https://github.com/gdgribeirao/learn/issues). Assim conseguimos controlar melhor a qualidade dos textos e melhorá-los sempre.
+
+### Quer adicionar material?
+
+Deseja escrever todo um material novo? [Crie um projeto](https://github.com/gdgribeirao/learn/projects). Assim todos saberão o que você pretende fazer e fica bem mais fácil conseguir contribuições. 
