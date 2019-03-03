@@ -76,4 +76,4 @@ Se você leu a informação de versão do Python, maravilha! Estamos prontos par
 >
 > Não importa qual shell você utiliza. Se você gosta do Powershell, do Bourne Again Shell (bash), Korn Shell, C Shell, Bourne Shell, não importa. Domine-o. Todo shell oferece a possibilidade de automação do ambiente que é algo extremamente útil no dia-a-dia do programador. 
 
-< [Voltar](/linguagens/README.md) | [Próximo Tópico: Estrutura da Linguagem](01-ESTRUTURA.md) >
+< [Voltar](/learn/linguagens/INDEX.html) | [Próximo Tópico: Estrutura da Linguagem](01-ESTRUTURA.md) >
