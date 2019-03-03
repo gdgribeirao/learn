@@ -2,7 +2,7 @@
 
 Antes de metermos realmente a mão na massa é preciso compreender como as coisas são organizadas para que o seu programa possa ser executado de forma adequada. Toda linguagem tem alguma forma de organização. No geral, os arquivos do seu programa serão organizados de acordo com a vontade do programador. Se o programador é organizado, maravilha. Se não é, bem...
 
-A linguagem Python convenciona algumas regras importantes que você precisa saber na largada. Estes conceitos são um pouco artificiais, porém simples de entender. Aqui vamos mesclar um pouco de conceitos gerais juntamente com os conceitos da linguagem. Indicaremos quando o conceito for geral, ou seja, aplicável a qualquer linguagem de programação, e quando for um conceito específico do Python.
+A linguagem Python convenciona algumas coisas importantes que você precisa saber na largada. Estes conceitos são um pouco artificiais, porém simples de entender. Aqui vamos mesclar um pouco de conceitos gerais juntamente com os conceitos da linguagem. Indicaremos quando o conceito for geral, ou seja, aplicável a qualquer linguagem de programação, e quando for um conceito específico do Python.
 
 ## Conceitos Iniciais
 
@@ -22,7 +22,7 @@ O _compilador_ é, de um ponto-de-vista simplista, o responsável por traduzir o
 
 *Conceito Específico*
 
-Por ser uma linguagem interpretada, não á um compilador no sentido lato da palavra para Python. Na verdade, as funções do compilador são acumuladas pelo intérprete. O intérprete realiza a compilação para um formato intermediário, chamado de _byte code_ que é o formato compreendido pelo intérprete. Este formato é independente de plataforma e pode ser fornecido diretamente ao intérprete. 
+Por ser uma linguagem interpretada, não há um compilador no sentido lato da palavra para Python. Na verdade, as funções do compilador são acumuladas pelo intérprete. O intérprete realiza a compilação para um formato intermediário, chamado de _byte code_ que é o formato compreendido pelo intérprete. Este formato é independente de plataforma e pode ser fornecido diretamente ao intérprete. 
 
 Normalmente, basta fornecer o seu código-fonte ao intérprete. Isto basta.
 
@@ -32,15 +32,15 @@ Normalmente, basta fornecer o seu código-fonte ao intérprete. Isto basta.
 
 O _intérprete_ é um software especialista que interpreta e executa as instruções de uma determinada linguagem de programação. No caso do Python, o intérprete é responsável por avaliar o seu código quanto às regras de sintaxe e executá-lo efetivamente, criando o seu programa. A principal vantagem da linguagem interpretada, como o Python, é a possibilidade de executar seu código em diversas plataformas sem a necessidade de reescrevê-lo. Basta portar o intérprete para outra plataforma que o seu programa estará disponível naquela plataforma também.
 
+> **Nota**
+> 
+> A portabilidade é uma meia-verdade. Muitas vezes uma plataforma tem características tão únicas que mesmo havendo o intérprete disponível para ela é necessário escrever código específico. Porém, de maneira geral, o conceito é verdadeiro.
+
 ### Espaço Significativo
 
 *Conceito Específico*
 
 Python é uma linguagem que usa o conceito de _espaço significativo_. Isto quer dizer que todo espaço _antes_ de uma instrução é importante e tem um significado. O espaço determina o agrupamento de código, o que chamamos de blocos de código. Estes agrupamentos determinam o escopo das instruções e isto é muito importante. 
-
-> **Nota**
-> 
-> Esta é uma meia-verdade. Muitas vezes uma plataforma tem características tão únicas que mesmo havendo o intérprete disponível nela é necessário escrever código específico para ela. Porém, de forma geral, o conceito é verdadeiro.
 
 ## Python (finalmente)
 
@@ -109,3 +109,5 @@ Observe que o código de exemplo não tem nenhuma função _main_ ou qualquer ou
 > **Dica**
 >
 > Tente digitar e executar este programa. Não deixamos o programa disponível para download por que é preciso sentir a dificuldade imposta pela indentação. Se você não tomar cuidado, seu programa não vai fazer o que você espera por que você não adicionou os espaços corretamente ao início das linhas.
+
+< [Índice](INDEX.md) | [Próximo Tópico: Variáveis](02-VARIAVEIS.md) >
