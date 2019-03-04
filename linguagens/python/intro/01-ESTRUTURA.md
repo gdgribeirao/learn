@@ -33,7 +33,7 @@ Normalmente, basta fornecer o seu código-fonte ao intérprete. Isto basta.
 O _intérprete_ é um software especialista que interpreta e executa as instruções de uma determinada linguagem de programação. No caso do Python, o intérprete é responsável por avaliar o seu código quanto às regras de sintaxe e executá-lo efetivamente, criando o seu programa. A principal vantagem da linguagem interpretada, como o Python, é a possibilidade de executar seu código em diversas plataformas sem a necessidade de reescrevê-lo. Basta portar o intérprete para outra plataforma que o seu programa estará disponível naquela plataforma também.
 
 > **Nota**
-> 
+>  
 > A portabilidade é uma meia-verdade. Muitas vezes uma plataforma tem características tão únicas que mesmo havendo o intérprete disponível para ela é necessário escrever código específico. Porém, de maneira geral, o conceito é verdadeiro.
 
 ### Espaço Significativo
@@ -46,9 +46,9 @@ Python é uma linguagem que usa o conceito de _espaço significativo_. Isto quer
 
 Depois de todo este blábláblá, finalmente vamos falar de Python. Aqui já sabemos que Python é uma linguagem interpretada e que o código-fonte é fornecido diretamente ao intérprete para que seja executado. Mas é preciso salvar o seu código-fonte em algum lugar. O arquivo no qual o seu código-fonte é salvo é chamado de _módulo_.
 
-O módulo é um arquivo texto comum cuja extensão é `.py`.  Imagine que você criou um programa de envio de emails e salvou o seu código no arquivo `mail.py`. Pela convenção da linguagem, `mail` é o nome do módulo. Você coloca em um módulo uma miscelânea de declarações e definições. E isto é o seu programa.
+O módulo é um arquivo texto comum cuja extensão é `.py` .  Imagine que você criou um programa de envio de emails e salvou o seu código no arquivo `mail.py` . Pela convenção da linguagem, `mail` é o nome do módulo. Você coloca em um módulo uma miscelânea de declarações e definições. E isto é o seu programa.
 
-Ao contrário de outras linguagens de programação, Python não exige que você crie um ponto de entrada para o seu programa. Por exemplo, a linguagem C exige que o ponto de entrada do programa seja uma função chamada `main`. Java exige que você crie um método estático chamado `main` que tem uma assinatura específica. Python não exige nada disso. O ponto de entrada do seu programa é problema seu, não da linguagem.
+Ao contrário de outras linguagens de programação, Python não exige que você crie um ponto de entrada para o seu programa. Por exemplo, a linguagem C exige que o ponto de entrada do programa seja uma função chamada `main` . Java exige que você crie um método estático chamado `main` que tem uma assinatura específica. Python não exige nada disso. O ponto de entrada do seu programa é problema seu, não da linguagem.
 
 Seu programa começa em um módulo. Qualquer um. Você é quem decide qual será o módulo que será o ponto de entrada do seu programa. O que estiver dentro do módulo é o que será executado pelo intérprete. 
 
@@ -78,19 +78,19 @@ if __name__ == "__main__":
         fib(n)
 ```
 
-Este programa calcula uma [série de Fibonacci](https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci). Os detalhes da implementação não são importantes agora. O importante é ter em mente que isto é um programa Python que foi salvo dentro do módulo `fib.py`. Mas, como faço para executar este programa? Para fazer isto, você precisa dizer ao intérprete Python como achar seu módulo. Na linha de comando do seu computador, execute o programa:
+Este programa calcula uma [série de Fibonacci](https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci). Os detalhes da implementação não são importantes agora. O importante é ter em mente que isto é um programa Python que foi salvo dentro do módulo `fib.py` . Mas, como faço para executar este programa? Para fazer isto, você precisa dizer ao intérprete Python como achar seu módulo. Na linha de comando do seu computador, execute o programa:
 
 ```shell
 python fib.py
 ```
 
-A resposta será `Uso: fib <número inteiro positivo>`. Para ver uma série de verdade, experimente o seguinte:
+A resposta será `Uso: fib <número inteiro positivo>` . Para ver uma série de verdade, experimente o seguinte:
 
 ```shell
 python fib.py 10
 ```
 
-Você deverá obter como resposta algo assim: `0 1 1 2 3 5 8`.
+Você deverá obter como resposta algo assim: `0 1 1 2 3 5 8` .
 
 ### A Linha de Comando
 
@@ -107,7 +107,7 @@ python módulo.py arg1 arg2 arg3
 Observe que o código de exemplo não tem nenhuma função _main_ ou qualquer outro ponto de entrada definido. Há uma definição de função (instrução _def_) e uma estrutura _if_ seca no meio do código. Não se preocupe ainda com os detalhes deste código.
 
 > **Dica**
->
+
 > Tente digitar e executar este programa. Não deixamos o programa disponível para download por que é preciso sentir a dificuldade imposta pela indentação. Se você não tomar cuidado, seu programa não vai fazer o que você espera por que você não adicionou os espaços corretamente ao início das linhas.
 
-< [Índice](INDEX.md) | [Próximo Tópico: Variáveis](02-VARIAVEIS.md) >
+< [Índice](INDEX.md) | [Próximo Tópico: Variáveis](02-CONSTANTES.md) >
