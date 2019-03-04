@@ -110,4 +110,4 @@ Observe que o código de exemplo não tem nenhuma função _main_ ou qualquer ou
 
 > Tente digitar e executar este programa. Não deixamos o programa disponível para download por que é preciso sentir a dificuldade imposta pela indentação. Se você não tomar cuidado, seu programa não vai fazer o que você espera por que você não adicionou os espaços corretamente ao início das linhas.
 
-< [Índice](INDEX.md) | [Próximo Tópico: Variáveis](02-CONSTANTES.md) >
+< [Índice](INDEX.md) | [Próximo Tópico: Constantes e Literais](02-CONSTANTES.md) >
