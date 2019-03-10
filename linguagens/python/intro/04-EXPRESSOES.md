@@ -25,34 +25,34 @@ Os símbolos que definem os operadores são determinados pela _gramática_ da li
 
 A tabela abaixo demonstra os operadores definidos pela gramática da linguagem Python:
 
-Operador | Significado
----|---
-+ | Soma. Pode ser usado para concatenar strings.       
-- | Subtração.     
-* | Multiplicação     
-** | Exponenciação    
-/ | Divisão     
-// | Divisão inteira (arredonda para baixo)    
-% | Módulo (resto da divisão)  
-@ | Multiplicação de matrizes
-<< | Giro de bits à esquerda     
->> | Giro de bits à direita    
-& | E bit a bit (bitwise)    
-\| | OU bit a bit (bitwise)     
-^ | XOR bit a bit (bitwise)     
-~ | NÃO bit a bit (bitwise)
-< | Menor     
-> | Maior     
-<= | Menor ou igual    
->= | Maior ou igual    
-== | Igual    
-!= | Diferente
-in | Pertence (usado para verificar se um item pertence à uma coleção)
-or | OU booleano
-and | E booleano
-not | NÂO booleano
-if else | Expressão condicional
-lambda | Expressão anônima
+| Operador | Significado |
+|---|---|
+|+ | Soma. Pode ser usado para concatenar strings. |
+|- | Subtração. |
+|* | Multiplicação |    
+|** | Exponenciação |   
+|/ | Divisão |
+|// | Divisão inteira (arredonda para baixo) |
+|% | Módulo (resto da divisão) |
+|@ | Multiplicação de matrizes |
+|<< | Giro de bits à esquerda |   
+|>> | Giro de bits à direita |
+|& | E bit a bit (bitwise) |
+|\| | OU bit a bit (bitwise) |
+|^ | XOR bit a bit (bitwise) |
+|~ | NÃO bit a bit (bitwise) |
+|< | Menor |
+|> | Maior |    
+|<= | Menor ou igual |
+|>= | Maior ou igual |
+|== | Igual |
+|!= | Diferente |
+|in | Pertence (usado para verificar se um item pertence à uma coleção) |
+|or | OU booleano |
+|and | E booleano |
+|not | NÂO booleano |
+|if else | Expressão condicional |
+|lambda | Expressão anônima |
 
 ## Avaliando Expressões
 
