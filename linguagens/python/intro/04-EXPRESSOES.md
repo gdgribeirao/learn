@@ -32,7 +32,7 @@ A tabela abaixo demonstra os operadores definidos pela gramática da linguagem P
 |* | Multiplicação |    
 |** | Exponenciação |   
 |/ | Divisão |
-|// | Divisão inteira (arredonda para baixo) |
+|// | Divisão exata ou inteira (arredonda para baixo) |
 |% | Módulo (resto da divisão) |
 |@ | Multiplicação de matrizes |
 |<< | Giro de bits à esquerda |   
