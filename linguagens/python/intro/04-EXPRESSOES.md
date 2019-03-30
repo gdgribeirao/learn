@@ -1,16 +1,26 @@
 # Expressões
 
-Agora que já estudamos as variáveis, precisamos entender como utilizá-las em _expressões_. A rigor, uma expressão é:
+Agora que já estudamos as variáveis, precisamos entender como utilizá-las em
+_expressões_. A rigor, uma expressão é:
 
-> uma combinação de valores, variáveis, operadores e ativações de funções ou métodos que são avaliados de acordo com a precedência e associatividade particulares a uma determinada linguagem de programação.
+> uma combinação de valores, variáveis, operadores e ativações de funções ou
+> métodos que são avaliados de acordo com a precedência e associatividade
+> particulares a uma determinada linguagem de programação.
 
 ## Operadores e Operandos
 
-Antes de seguirmos adiante, é importante que façamos uma pequena parada no mundo dos operadores e operandos. Afinal, as expressões são combinações destes elementos, não limitando-se a eles conforme já vimos.
+Antes de seguirmos adiante, é importante que façamos uma pequena parada no mundo
+dos operadores e operandos. Afinal, as expressões são combinações destes
+elementos, não limitando-se a eles conforme já vimos.
 
-O _operador_ realiza uma operação. Parece óbvio. Mas não tão assim. As operações podem ser bem complicadas, principalmente em linguagens que permitem a sobrecarga de operadores, como C++. Já voltamos nisso.
+O _operador_ realiza uma operação. Parece óbvio. Mas não tão assim. As operações
+podem ser bem complicadas, principalmente em linguagens que permitem a
+sobrecarga de operadores, como C++. Já voltamos nisso.
 
-O _operando_ são os elementos necessários para que a operação seja executada com sucesso. A grande maioria dos operadores das linguagens de programação são operadores _binários_, ou seja, necessitam de dois operandos. Aqui estão alguns exemplos:
+O _operando_ são os elementos necessários para que a operação seja executada com
+sucesso. A grande maioria dos operadores das linguagens de programação são
+operadores _binários_, ou seja, necessitam de dois operandos. Aqui estão alguns
+exemplos:
 
 ```python
 10 + 25
@@ -19,9 +29,17 @@ O _operando_ são os elementos necessários para que a operação seja executada
 4 * 34
 42 ** 2
 ```
-No exemplo podemos notar que os números e os operadores. Esta é a forma mais simples de expressão, ou seja, operadores e seus respectivos operandos. 
 
-Os símbolos que definem os operadores são determinados pela _gramática_ da linguagem de programação. Assim, cada linguagem tem seu próprio conjunto de símbolos que definem as operações. Normalmente os projetistas das linguagens de programação tentam manter o senso comum: + é soma, - é subtração. No entanto, é sempre uma boa ideia ler a documentação da linguagem para saber se isto é realmente uma verdade. Por exemplo, o operador _+_ é usado como concatenação de strings em diversas linguagens, algo que é bem diferente de uma _soma_.
+No exemplo podemos notar que os números e os operadores. Esta é a forma mais
+simples de expressão, ou seja, operadores e seus respectivos operandos.
+
+Os símbolos que definem os operadores são determinados pela _gramática_ da
+linguagem de programação. Assim, cada linguagem tem seu próprio conjunto de
+símbolos que definem as operações. Normalmente os projetistas das linguagens de
+programação tentam manter o senso comum: + é soma, - é subtração. No entanto, é
+sempre uma boa ideia ler a documentação da linguagem para saber se isto é
+realmente uma verdade. Por exemplo, o operador _+_ é usado como concatenação de
+strings em diversas linguagens, algo que é bem diferente de uma _soma_.
 
 A tabela abaixo demonstra os operadores definidos pela gramática da linguagem Python:
 
@@ -56,7 +74,8 @@ A tabela abaixo demonstra os operadores definidos pela gramática da linguagem P
 
 ## Avaliando Expressões
 
-Caso seja digitada uma expressão na linha de comando, ela será avaliada linha a linha, seguindo a precedência matemática clássica.
+Caso seja digitada uma expressão na linha de comando, ela será avaliada linha a
+linha, seguindo a precedência matemática clássica.
 
 Exemplo:
 
@@ -71,7 +90,8 @@ Exemplo:
 60
 ```
 
-No exemplo acima a expressão `10 * 5 + 10` pode ser reescrita com parênteses para mudança da precedência e do valor final:
+No exemplo acima a expressão `10 * 5 + 10` pode ser reescrita com parênteses
+para mudança da precedência e do valor final:
 
 ```Python
 
@@ -80,17 +100,29 @@ No exemplo acima a expressão `10 * 5 + 10` pode ser reescrita com parênteses p
 150
 ```
 
-Avaliar uma expressão não é a mesma coisa que imprimir algum valor na tela, isso depende muito do tipo de execução. As maneiras mais comuns para rodar programas Python são:
+Avaliar uma expressão não é a mesma coisa que imprimir algum valor na tela, isso
+depende muito do tipo de execução. As maneiras mais comuns para rodar programas
+Python são:
 
-- A linha de comando (Interpretador Python) - também conhecido como [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop), em que se avalia uma linha por vez, normalmente utilizado para testes rápidos de código.
+- A linha de comando (Interpretador Python) - também conhecido como
+  [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop), em
+  que se avalia uma linha por vez, normalmente utilizado para testes rápidos de
+  código.
 
-- Rodar como script, também na linha de comando mas dessa vez o código/arquivo inteiro é executado de uma só vez.
+- Rodar como script, também na linha de comando mas dessa vez o código/arquivo
+  inteiro é executado de uma só vez.
 
 ## Precedência de Operadores
 
-A _precedência_ determina a ordem na qual uma expressão será avaliada. Normalmente as linguagens de programação tentam seguir as regras estabelecidas pela matemática. No entanto, as expressões nas linguagens de programação podem envolver tipos diferentes, o que faz com que as expressões sejam bem diferentes se comparadas às da matemática. Portanto, cada linguagem determina sua própria ordem de precedência.
+A _precedência_ determina a ordem na qual uma expressão será
+avaliada. Normalmente as linguagens de programação tentam seguir as regras
+estabelecidas pela matemática. No entanto, as expressões nas linguagens de
+programação podem envolver tipos diferentes, o que faz com que as expressões
+sejam bem diferentes se comparadas às da matemática. Portanto, cada linguagem
+determina sua própria ordem de precedência.
 
-A _ordem de precedência_ determina qual operação será realizada primeiro em uma expressão. Os operadores em Python seguem a seguinte ordem de precedência:
+A _ordem de precedência_ determina qual operação será realizada primeiro em uma
+expressão. Os operadores em Python seguem a seguinte ordem de precedência:
 
 | Operadores                                   | Significado                                     |
 |----------------------------------------------|-------------------------------------------------|
@@ -107,8 +139,11 @@ A _ordem de precedência_ determina qual operação será realizada primeiro em 
 
 ### Regras para expressões
 
-- Operadores com a **mesma precedência** são avaliados da esquerda para a direita. 
-- O operador % também é usado para formatação de strings, seguindo a mesma precedência.
+- Operadores com a **mesma precedência** são avaliados da esquerda para a
+  direita.
+
+- O operador % também é usado para formatação de strings, seguindo a mesma
+  precedência.
 
 ## Exemplos de expressões válidas
 
@@ -195,4 +230,3 @@ False
 
 'GDG ribeirao'
 ```
-
