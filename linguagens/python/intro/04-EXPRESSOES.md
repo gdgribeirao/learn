@@ -72,6 +72,10 @@ A tabela abaixo demonstra os operadores definidos pela gramática da linguagem P
 |if else | Expressão condicional |
 |lambda | Expressão anônima |
 
+### Conversões Aritméticas
+
+
+
 ## Avaliando Expressões
 
 Caso seja digitada uma expressão na linha de comando, ela será avaliada linha a
