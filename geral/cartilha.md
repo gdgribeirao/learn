@@ -17,8 +17,8 @@ liberdade para contactar qualquer um de nós, por qualquer meio.
 
 | Nome               | E-mail                       | Telefone        |
 |--------------------|------------------------------|-----------------|
-| Caio Tarifa        | [caiotarifa@gmail.com](mailto:caiotarifa@gmail.com?subject="Sobre Cartilha do Palestrante") | (16) 98831-1731 |
-| Ronaldo Faria Lima | [ronaldo.faria.lima@gmail.com](mailto:ronaldo.faria.lima@gmail.com?subject="Sobre Cartilha do Palestrante") | (16) 98136-5287 | 
+| Caio Tarifa        | [caiotarifa@gmail.com](mailto:caiotarifa@gmail.com?subject=Cartilha%20do%20Palestrante) | (16) 98831-1731 |
+| Ronaldo Faria Lima | [ronaldo.faria.lima@gmail.com](mailto:ronaldo.faria.lima@gmail.com?subject=Cartilha%20do%20Palestrante) | (16) 98136-5287 | 
 
 Isto posto, vamos falar um pouco sobre a sua apresentação?
 
