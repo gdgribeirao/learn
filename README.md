@@ -10,6 +10,7 @@ Todo material apresentado aqui está em _Markdown_, escrito em texto plano. Tem-
 
 * [Linguagens de Programação](linguagens/INDEX.md)
 * [Ferramentas de Desenvolvimento](ferramentas/INDEX.md)
+* [Temas Gerais](geral/INDEX.md)
 
 ## Como Contribuir
 
