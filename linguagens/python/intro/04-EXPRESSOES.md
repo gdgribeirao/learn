@@ -74,7 +74,35 @@ A tabela abaixo demonstra os operadores definidos pela gramática da linguagem P
 
 ### Conversões Aritméticas
 
+Uma conversão aritmética ocorre quando vários tipos numéricos diferentes
+participam em uma expressão. O conceito generalizado da conversão de tipos em
+uma expressão chama-se _conversão integral_ quando os tipos envolvidos são
+_tipos integrais_, ou seja, tipos de dados que não são estruturados. Os números
+e os caracteres são tipos integrais. As classes, estruturas e coleções, quando
+suportados pela linguagem, são _tipos estruturados_.
 
+As regras de conversão aritmética em Python são muito simples:
+
+1. Se algum dos operandos é um número complexo, todos os outros operandos são
+   convertidos para números complexos e o resultado é um número complexo.
+
+1. Caso a regra anterior não for satisfeita e houver algum operando de ponto
+   flutuante, todos os operandos são convertidos para números flutuantes e o
+   resultado é um número flutuante.
+
+1. Se todos os operandos são números inteiros, não há conversão.
+
+#### Exemplos
+
+```python
+1.45 + (2+5j)                     # Resultado: (3.45+5j)
+3.14 - 1                          # Resultado: 2.14
+1 + 1                             # Resultado: 2
+(4 + 2.718 - (5+3.45j)) * (1-45j) # Resultado: (-153.532-80.76j) 
+```
+
+Os exemplos podem parecer muito triviais mas demonstram uma característica
+importante das conversões numéricas que não podem, e não devem, ser ignoradas.
 
 ## Avaliando Expressões
 
