@@ -90,15 +90,16 @@ As regras de conversão aritmética em Python são muito simples:
    flutuante, todos os operandos são convertidos para números flutuantes e o
    resultado é um número flutuante.
 
-1. Se todos os operandos são números inteiros, não há conversão.
+1. Se todos os operandos são do mesmo tipo, não há conversão.
 
 #### Exemplos
 
 ```python
 1.45 + (2+5j)                     # Resultado: (3.45+5j)
 3.14 - 1                          # Resultado: 2.14
-1 + 1                             # Resultado: 2
-(4 + 2.718 - (5+3.45j)) * (1-45j) # Resultado: (-153.532-80.76j) 
+1 + 1                             # Resultado: 2 (sem conversão de tipos)
+(4 + 2.718 - (5+3.45j)) * (1-45j) # Resultado: (-153.532-80.76j)
+1.5 * 2.0                         # Resultado: 3.0 (sem conversão de tipos)
 ```
 
 Os exemplos podem parecer muito triviais mas demonstram uma característica
