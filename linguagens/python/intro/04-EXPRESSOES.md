@@ -221,7 +221,7 @@ Abaixo alguns exemplos de expressões válidas em Python:
 3
 ```
 
-- Expressões lógicas:
+- Expressões lógicas ou booleanas:
 
 ```python
 
