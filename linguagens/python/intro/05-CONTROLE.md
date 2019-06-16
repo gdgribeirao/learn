@@ -176,7 +176,7 @@ tipo de controle de estado.
 
 Por exemplo, poderíamos criar um menu de opções baseado em uma lista de valores:
 
-```
+```python
 print("Menu\n1 - Cadastro\n2 - Pesquisa\n3 - Relatórios")
 opcao = int(raw_input("Digite a opção desejada: "))
 if opcao == 1:
