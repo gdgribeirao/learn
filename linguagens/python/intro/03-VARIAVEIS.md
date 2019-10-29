@@ -82,10 +82,10 @@ Python é chamada de _linguagem de tipagem dinâmica_.
 > **Nota**
 >
 > Apesar de ser possível fazer com que uma variável seja reaproveitada com tipos
-> diferentes no mesmo escopo, esta é uma péssima ideia.  Imagine que em um
-> código extenso você resolva reaproveitar o nome da variável para tipos
-> diferentes de informação. A manutenção disso será terrível!  É uma boa prática
-> ser consistente, ou seja, se você definir uma variável como sendo de um tipo,
+> diferentes no mesmo escopo, esta é uma péssima ideia. Imagine que em um código
+> extenso você resolva reaproveitar o nome da variável para tipos diferentes de
+> informação. A manutenção disso será terrível! É uma boa prática ser
+> consistente, ou seja, se você definir uma variável como sendo de um tipo,
 > procure armazenar dados somente deste tipo na variável. Apesar da linguagem
 > permitir usar qualquer tipo diferente sob o mesmo nome no mesmo escopo, esta é
 > uma péssima ideia.
